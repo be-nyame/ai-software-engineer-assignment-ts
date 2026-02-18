@@ -61,3 +61,20 @@ Create `EXPLANATION.md` (max 250 words) containing:
 ## Submission
 
 - Submit a public GitHub repository URL containing your solution to the Google form link provided.
+
+## Running Tests Locally
+
+- Ensure you have Node.js 20+ installed, then from the project root run:
+
+    - npm install
+    - npm test
+
+## Running Tests with Docker
+
+- To build the image run:
+
+    - docker build -t httpclient-tests .
+
+- Run the test suite using:
+
+    - docker run --rm httpclient-tests
