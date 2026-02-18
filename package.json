@@ -1,0 +1,19 @@
+{
+  "name": "ai-software-engineer-assignment-ts",
+  "version": "1.0.0",
+  "description": "This assignment evaluates your ability to:",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
